@@ -51,6 +51,7 @@ house-price-predictor/
 ├── app.py                     # Main application script
 ├── requirements.txt           # Project dependencies
 └── README.md                  # Project documentation
+```
 
 ## ⚙️ Tech Stack
 Python 3.13.0
@@ -117,8 +118,9 @@ Download the dataset train.csv from Kaggle
 Place it inside the data/ folder
 
 ##▶️ 4. Run the Application
+```bash
 python app.py
-
+```
 Enter the requested inputs when prompted
 
 Get the predicted house price in the terminal
