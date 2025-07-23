@@ -12,11 +12,12 @@ def plot_elbow(wcss, save_path='outputs/elbow_plot.png'):
     plt.close()
 
 def plot_clusters(X_scaled, labels, save_path='outputs/cluster_visualization.png'):
-    plt.figure(figsize=(8, 6))
-    sns.scatterplot(x=X_scaled[:, 0], y=X_scaled[:, 1], hue=labels, palette='Set2', s=100)
-    plt.title('Customer Segments')
-    plt.xlabel('Annual Income (scaled)')
+    plt.figure(figsize=(10, 4))
+    sns.scatterplot(x=range(len(X_scaled)), y=X_scaled[:, 0], hue=labels, palette='Set2', s=100)
+    plt.title('Customer Segments Based on Spending Score')
+    plt.xlabel('Customer Index')
     plt.ylabel('Spending Score (scaled)')
     plt.savefig(save_path)
     plt.show()
     plt.close()
+

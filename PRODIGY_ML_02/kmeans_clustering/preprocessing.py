@@ -5,7 +5,7 @@ def load_data(path):
     return pd.read_csv(path)
 
 def select_data(data):
-    return data[['Annual Income (k$)', 'Spending Score (1-100)']]
+    return data[['Spending Score (1-100)']]
 
 def scale_data(X):
     scaler = StandardScaler()

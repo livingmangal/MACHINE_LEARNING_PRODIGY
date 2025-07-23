@@ -32,7 +32,7 @@ KMeans-Customer-Segmentation/ #replaced by PRODIGY_ML_02 due to internship requi
 - Source: [Kaggle](https://www.kaggle.com/datasets/vjchoudhary7/customer-segmentation-tutorial-in-python)
 - File: `Mall_Customers.csv`
 - Columns used:
-  - `Annual Income (k$)`
+  - `Annual Income (k$)` #not included for internship requirements
   - `Spending Score (1-100)`
 
 ---

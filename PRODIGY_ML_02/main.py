@@ -13,7 +13,7 @@ wcss = find_optimal_clusters(X_scaled)
 plot_elbow(wcss)
 
 # Step 3: Train model and assign clusters
-k = 5
+k = 3
 model, labels = train_kmeans(X_scaled, k)
 
 # Step 4: Save and visualize results
